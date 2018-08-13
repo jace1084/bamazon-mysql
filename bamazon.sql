@@ -22,6 +22,7 @@ INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity);
 
 
 
+-- Creating the table for the departments:
 
 CREATE TABLE Departments(
 DepartmentID MEDIUMINT AUTO_INCREMENT NOT NULL,
@@ -30,6 +31,9 @@ OverHeadCosts DECIMAL(10,2) NOT NULL,
 TotalSales DECIMAL(10,2) NOT NULL,
 PRIMARY KEY(DepartmentID));
 
+-- Creating the columns:
+
+INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
 
 
 
