@@ -14,8 +14,7 @@ PRIMARY KEY (id)
 
 -- Creating the colums:
 
-INSERT INTO products (id) VALUES ('Andrew Jackson');
-INSERT INTO products_id (name) VALUES ('');
+INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
 
 
 
