@@ -17,7 +17,25 @@ primary key(ItemID)
 
 -- Creating the colums:
 
-INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
+INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity);
+
+
+
+
+
+CREATE TABLE Departments(
+DepartmentID MEDIUMINT AUTO_INCREMENT NOT NULL,
+DepartmentName VARCHAR(50) NOT NULL,
+OverHeadCosts DECIMAL(10,2) NOT NULL,
+TotalSales DECIMAL(10,2) NOT NULL,
+PRIMARY KEY(DepartmentID));
+
+
+
+
+
+
+
 
 
 
