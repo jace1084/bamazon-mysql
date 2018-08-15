@@ -44,9 +44,9 @@ PRIMARY KEY(DepartmentID));
 
 -- Creating the columns:
 
-INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
-VALUES  ("Men's Bags", 0.00, 0.00),
-        ("Wallets", 0.00, 0.00);
+-- INSERT INTO Departments(DepartmentName, OverHeadCosts, TotalSales)
+-- VALUES  ("Men's Bags", 0.00, 0.00),
+--         ("Wallets", 0.00, 0.00);
         
 
 
