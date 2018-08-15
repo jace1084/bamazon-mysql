@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 
 	// Your password
 	password: 'password',
-	database: 'Bamazon'
+	database: 'bamazon_db'
 });
 
 function start(){
