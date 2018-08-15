@@ -103,7 +103,7 @@ function start(){
 	  inquirer.prompt([{
 		type: "confirm",
 		name: "reply",
-		message: "Would you like to purchase another item?"
+		message: "Would you like to purchase something else?"
 	  }]).then(function(ans){
 		if(ans.reply){
 		  start();
