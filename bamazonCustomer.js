@@ -45,7 +45,7 @@ function start(){
 		{
 		  type: "input",
 		  name: "qty",
-		  message: "How much would you like to purchase?",
+		  message: "How much many you like to purchase?",
 		  validate: function(value){
 			if(isNaN(value)){
 			  return false;
