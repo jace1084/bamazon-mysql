@@ -15,7 +15,7 @@ StockQuantity INT(10) NOT NULL,
 primary key(ItemID)
 );
 
-SELECT * FROM Products
+SELECT * FROM Products;
 
 -- Creating the colums:
 
