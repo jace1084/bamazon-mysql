@@ -79,4 +79,38 @@ function start(){
 				}
 			  }
 			  
-			  
+			  //updates totalSales in departments table
+			  connection.query("UPDATE Departments SET ? WHERE ?", [
+			  {TotalSales: deptRes[index].TotalSales + grandTotal},
+			  {DepartmentName: res[whatToBuy].DepartmentName}
+			  ], function(err, deptRes){
+				  if(err) throw err;
+				  //console.log("Updated Dept Sales.");
+			  });
+			});
+	
+		  } else{
+			console.log("Sorry, there's not enough in stock!");
+		  }
+	
+		  reprompt();
+		})
+	})
+	}
+	
+	//asks if they would like to purchase another item
+	function reprompt(){
+	  inquirer.prompt([{
+		type: "confirm",
+		name: "reply",
+		message: "Would you like to purchase another item?"
+	  }]).then(function(ans){
+		if(ans.reply){
+		  start();
+		} else{
+		  console.log("See you soon!");
+		}
+	  });
+	}
+	
+	start();
