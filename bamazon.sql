@@ -17,7 +17,18 @@ primary key(ItemID)
 
 -- Creating the colums:
 
-INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity);
+INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
+
+VALUES  ("Gucci Rainbow Belt Bag","Men's Bags", 1450.00, 5),
+        ("Gucci Medium Superhero Backpack","Men's bags", 1450.00, 4),
+        ("Gucci Logo Print Belt Bag","Men's Bags", 1290.00, 30),
+        ("Gucci GG Supreme Sling Backpack","Men's Bags", 950.00, 3),
+        ("Gucci Night Courrier GG Supreme Pouch","Men's Bags", 1150.00, 6),
+        ("Gucci Leather Briefcase","Men's Bags", 6300.00, 2),
+        ("Gucci GG Courier Backpack","Men's Bags", 2590.00, 6),
+        ("Gucci Card Case","Wallets", 870.00, 10),
+        ("Gucci Embossed Logo Leather Cardholder","Wallets", 350.00, 10),
+        ("Gucci Leather Zip-Around Wallet","Wallets", 495.00, 5);
 
 
 
