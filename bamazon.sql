@@ -6,7 +6,7 @@ USE bamazon_db;
 
 -- Creating the table 'Products':
 
-CREATE TABLE Products (
+CREATE TABLE Prouducts (
 ItemID MEDIUMINT AUTO_INCREMENT NOT NULL,
 ProductName VARCHAR(100) NOT NULL,
 DepartmentName VARCHAR(50) NOT NULL,
