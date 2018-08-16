@@ -22,3 +22,31 @@ If there is a sufficient amount of the product in stock, it will return the tota
 However, if there is not enough of the product in stock, it will tell the user that there isn't enough of the product.
 If the purchase goes through, it updates the stock quantity to reflect the purchase.
 It will also update the product sales in the department table.
+
+Creating the shop tables:
+
+
+
+<img width="1737" alt="mysql creation of the table" src="https://user-images.githubusercontent.com/38711994/44190913-b209bf80-a0dd-11e8-8909-58633454d9fe.png">
+
+
+Opening the Shop:
+
+
+
+<img width="1737" alt="bamazon shop" src="https://user-images.githubusercontent.com/38711994/44190930-be8e1800-a0dd-11e8-9044-88818a10ca61.png">
+
+
+Purchasing and Item:
+
+
+
+<img width="1737" alt="bamazon item purchased" src="https://user-images.githubusercontent.com/38711994/44190937-c8178000-a0dd-11e8-9dfa-7188ba603f2d.png">
+
+
+Item Quantity has been adjusted:
+
+
+
+<img width="1737" alt="bamazon item purchased" src="https://user-images.githubusercontent.com/38711994/44190942-cea5f780-a0dd-11e8-957a-ddb4e338b83c.png">
+
